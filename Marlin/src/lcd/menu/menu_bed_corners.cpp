@@ -68,7 +68,7 @@ static_assert(BED_TRAMMING_Z_HOP >= 0, "BED_TRAMMING_Z_HOP must be >= 0. Please 
 
 #ifndef BED_TRAMMING_LEVELING_ORDER
   #define BED_TRAMMING_LEVELING_ORDER { LF, RF, LB, RB } // Default
-  //#define BED_TRAMMING_LEVELING_ORDER { LF, LB, RF  }  // 3 hard-coded points
+  //#define ` { LF, LB, RF  }  // 3 hard-coded points
   //#define BED_TRAMMING_LEVELING_ORDER { LF, RF }       // 3-Point tramming - Rear
   //#define BED_TRAMMING_LEVELING_ORDER { LF, LB }       // 3-Point tramming - Right
   //#define BED_TRAMMING_LEVELING_ORDER { RF, RB }       // 3-Point tramming - Left
