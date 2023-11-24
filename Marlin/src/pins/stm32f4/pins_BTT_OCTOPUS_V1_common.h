@@ -42,7 +42,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PB6
+#define SERVO0_PIN                          PB6   
 
 //
 // Misc. Functions
@@ -65,7 +65,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                   PB7
+  #define Z_MIN_PROBE_PIN                   ~PB7
 #endif
 
 //
